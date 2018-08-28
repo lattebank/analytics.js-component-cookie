@@ -1,31 +1,6 @@
-# cookie
+[@component/cookie](https://github.com/component/cookie)
+==
 
-  Cookie component.
+This project follows the `package.json/version` convention. But will not be published to `npmjs.org`.
 
-## Installation
-
-    $ component install component/cookie
-
-## Example
-
-```js
-// set
-cookie('name', 'tobi')
-cookie('name', 'tobi', { path: '/' })
-cookie('name', 'tobi', { maxage: 60000 }) // in milliseconds
-cookie('species', 'ferret')
-
-// get
-var name = cookie('name')
-// => "tobi"
-
-var cookies = cookie()
-// => { name: "tobi", species: "ferret" }
-
-// clear
-cookie('name', null)
-```
-
-## License
-
-  MIT
+See [@lattebank/h5-analytics](https://github.com/lattebank/h5-analytics) for a production ready solution.
